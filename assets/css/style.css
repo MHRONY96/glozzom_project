@@ -1,0 +1,97 @@
+.navbar {
+  background-color: black; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel_img_one {
+  background-image: url("../img/image1.jpeg");
+  background-size: cover; }
+
+.carousel_img_two {
+  background-image: url("../img/image2.jpeg");
+  background-size: cover; }
+
+.carousel_img_three {
+  background-image: url("../img/image3.jpeg");
+  background-size: cover; }
+
+#home_icon .fa {
+  font-size: 40px; }
+
+#get_started {
+  position: relative;
+  background: url("../img/pc.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px; }
+  #get_started .dark_overly {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+
+#home_gallery img {
+  min-height: 250px;
+  min-width: 200px; }
+
+#home_vedio {
+  position: relative;
+  background: url("../img/people.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px; }
+  #home_vedio .dark_overley {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+  #home_vedio .fa {
+    font-size: 40px; }
+
+#about_us_page {
+  background-image: url(../img/image2.jpeg);
+  background-size: cover;
+  min-height: 200px;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+#about_we_do img {
+  width: 450px;
+  height: 450px; }
+
+#icon_bar .fa {
+  font-size: 40px;
+  margin-bottom: 15px; }
+
+#testi_monial .slick-prev::before,
+#testi_monial .slick-next::before {
+  color: #000; }
+
+#services_section {
+  background-image: url("../img/image2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 200px; }
+
+#footer {
+  background: black; }
+
+@media (max-width: 767px) {
+  #get_started {
+    min-height: 300px; } }
+
+@media (max-width: 480px) {
+  #get_started {
+    min-height: 350px; } }
+
+@media (max-width: 767px) {
+  #blog_section {
+    margin-bottom: 2px; } }
